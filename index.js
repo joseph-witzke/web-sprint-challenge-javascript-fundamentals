@@ -16,7 +16,8 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-
+// This is an example of scope and closure. Nested function first looks within itself for the variable internal, but since it's not there, it then goes to the next
+// level of scope (parent scope) to find the variable within myFunction. This is a one-way street however -- i.e. we can pass variables down, but not up. 
 
 
 
